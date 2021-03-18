@@ -10,6 +10,10 @@ public class QueryProcessor {
             return "Javier is an " +
                     "Spanish poet, playwright, and actor, widely regarded as the greatest " +
                     "writer in the Spanish language and the world's pre-eminent dramatist.";
+        } else if (query.toLowerCase().contains("rubhan")) {
+            return "Xavier is an " +
+                    "Indian poet, playwright, and actor, widely regarded as the greatest " +
+                    "writer in the Indian language and the world's pre-eminent dramatist.";
         }
         return "";
 
